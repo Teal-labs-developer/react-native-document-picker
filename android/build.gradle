@@ -39,4 +39,5 @@ allprojects {
 
 dependencies {
     implementation "com.facebook.react:react-native:${safeExtGet('reactNativeVersion', '+')}"
+    implementation group: 'commons-io', name: 'commons-io', version: '2.5'
 }
